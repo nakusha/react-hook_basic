@@ -1,2 +1,17 @@
 # react_hook_basic
-nomadcorder React Hook Class
+Collection of React Hooks ready to install with NPM
+
+ - [ ] useTitle
+ - [ ] useInput
+ - [ ] usePageLeave
+ - [ ] useClick
+ - [ ] useFadeIn
+ - [ ] useFullScreen
+ - [ ] useHover
+ - [ ] useNetwork
+ - [ ] useNotification
+ - [ ] useScroll
+ - [ ] useTabs
+ - [ ] usePreventLeave
+ - [ ] useConfirm
+ - [ ] useAxios
