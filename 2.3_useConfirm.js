@@ -16,6 +16,7 @@ const useConfirm = (message = "", callback, rejection) => {
   };
   return confirmAction;
 };
+
 const App = () => {
   const deleteWorld = () => console.log("Deleting the World");
   const abort = () => console.log("Aborted");
