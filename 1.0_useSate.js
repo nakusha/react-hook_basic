@@ -5,14 +5,23 @@ import "./styles.css";
 
 const App = () => {
   const [item, setItem] = useState(1);
+  const [email, setEmail] = useState("");
   const incrementItem = () => setItem(item + 1);
   const decrementItem = () => setItem(item - 1);
+
+  const updateEmail = e => {
+    const {
+      target: { value }
+    } = e;
+    setEmail(value);
+  }
   return (
     <div className="App">
       <h1>Hello {item}</h1>
       <h2>Start editing to see some magic happen!</h2>
       <button onClick={incrementItem}>increment</button>
       <button onClick={decrementItem}>decrement</button>
+      <input placeholder="Email" value={email} onChange={updateEmail}/>
     </div>
   );
 };
